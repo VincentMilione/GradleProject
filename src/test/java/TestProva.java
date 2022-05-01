@@ -20,7 +20,7 @@ public class TestProva {
         Item expItem = Calculator.process();
         Item actual = new Item ("Patatine", 4, "queste sono patatine");
 // some code here…
-        assertEquals(expItem.getName(), actual.getName());
+        expItem.getName();
         assertEquals(expItem.getDesc(), actual.getDesc());
         assertEquals(expItem.getQt(), actual.getQt());
     }
